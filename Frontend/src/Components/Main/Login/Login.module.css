@@ -1,0 +1,32 @@
+.loginContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(232, 232, 232);
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.loginContent form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5rem;
+  align-content: space-around;
+  align-items: center;
+}
+
+.loginContent label {
+  margin-bottom: 1rem;
+}
+.loginContent input {
+  margin-bottom: 1rem;
+}

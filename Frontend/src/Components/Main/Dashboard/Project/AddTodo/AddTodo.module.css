@@ -1,0 +1,33 @@
+.addTodo {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.addTodo form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.addTodo label {
+  font-size: small;
+  margin-top: 0.5rem;
+}
+
+.addTodo input {
+  margin-top: 0.5rem;
+  width: 70%;
+}
+
+.addTodo button {
+  width: 40%;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  background-color: rgb(13, 148, 43);
+  color: white;
+  font-weight: 900;
+}
